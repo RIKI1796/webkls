@@ -1,50 +1,59 @@
 import Foto from "../assets/china.jpg";
+import "./styles/Siswa.css";
+import Syafiq from "../assets/syafiq.jpg";
+import Marcel from "../assets/marcel.jpg";
+import Hafiz from "../assets/hafiz.jpg";
+import Pakikbal from "../assets/pakikbal.jpg";
 
 function Siswa() {
   const data = [
-    { nama: "Aryo Wicaksono", absen: 1 },
-    { nama: "Fairuz Zaidan", absen: 2 },
-    { nama: "Fajar Melfiano", absen: 3 },
-    { nama: "Fajjar Nafarriq", absen: 4 },
-    { nama: "Ferby Indra", absen: 5 },
-    { nama: "Ghatfan Aufa Rizki", absen: 6 },
-    { nama: "Gibran Ahmad", absen: 7 },
-    { nama: "Giselli Adella", absen: 8 },
-    { nama: "Gusti Izza", absen: 9 },
-    { nama: "Hafiz Tri Septian", absen: 10 },
-    { nama: "Hanaya Nabitha", absen: 11 },
-    { nama: "Hisyaam Maulana", absen: 12 },
-    { nama: "Ibrahim Maulana", absen: 13 },
-    { nama: "Indah Diana", absen: 14 },
-    { nama: "Irfan Romadhoni", absen: 15 },
-    { nama: "Izzul Khaqqi", absen: 16 },
-    { nama: "Jaenal Abidin", absen: 17 },
-    { nama: "Jessica Dwi", absen: 18 },
-    { nama: "Jessika Ayu", absen: 19 },
-    { nama: "Jevika Febri", absen: 20 },
-    { nama: "Jimmy Adi", absen: 21 },
-    { nama: "Khomsa Tri", absen: 22 },
-    { nama: "Ladiva Amalaia", absen: 23 },
-    { nama: "Larasati Kurnia", absen: 24 },
-    { nama: "Luthfiana Silvi", absen: 25 },
-    { nama: "Syafiq Zakariyya", absen: 26 },
-    { nama: "Malik Hakim", absen: 27 },
-    { nama: "Marcellino Setya", absen: 28 },
-    { nama: "Marvel Trey", absen: 29 },
-    { nama: "Maulidta Y.", absen: 30 },
-    { nama: "Maya Nur", absen: 31 },
-    { nama: "Miftakhul Putri", absen: 32 },
-    { nama: "Mila Nur", absen: 33 },
-    { nama: "Mirreal", absen: 34 },
-    { nama: "Galih Alanuari", absen: 35 },
-    { nama: "Moch. Hafid", absen: 36 },
-    { nama: "M. Novianto", absen: 37 },
-    { nama: "Alif Ramadhani", absen: 38 },
+    { nama: "M. Ikbal.F", bagian: "Wali Kelas", image: Pakikbal },
+    { nama: "Aryo Wicaksono", image: Foto },
+    { nama: "Fairuz Zaidan", image: Foto },
+    { nama: "Fajar Melfiano", image: Foto },
+    { nama: "Fajjar Nafarriq", image: Foto },
+    { nama: "Ferby Indra", image: Foto },
+    { nama: "Ghatfan Aufa", image: Foto },
+    { nama: "Gibran Ahmad", image: Foto },
+    { nama: "Giselli Adella", image: Foto },
+    { nama: "Gusti Izza", image: Foto },
+    { nama: "Hafiz Tri Septian", image: Hafiz },
+    { nama: "Hanaya Nabitha", image: Foto },
+    { nama: "Hisyaam Maulana", image: Foto },
+    { nama: "Ibrahim Maulana", image: Foto },
+    { nama: "Indah Diana", image: Foto },
+    { nama: "Irfan Romadhoni", image: Foto },
+    { nama: "Izzul Khaqqi", image: Foto },
+    { nama: "Jaenal Abidin", image: Foto },
+    { nama: "Jessica Dwi", image: Foto },
+    { nama: "Jessika Ayu", image: Foto },
+    { nama: "Jevika Febri", image: Foto },
+    { nama: "Jimmy Adi", image: Foto },
+    { nama: "Khomsa Tri", image: Foto },
+    { nama: "Ladiva Amalaia", image: Foto },
+    { nama: "Larasati Kurnia", image: Foto },
+    { nama: "Luthfiana Silvi", image: Foto },
+    { nama: "Syafiq Zakariyya", image: Syafiq },
+    { nama: "Malik Hakim", image: Foto },
+    { nama: "Marcellino Setya", image: Marcel },
+    { nama: "Marvel Trey", image: Foto },
+    { nama: "Maulidta Y.", image: Foto },
+    { nama: "Maya Nur", image: Foto },
+    { nama: "Miftakhul Putri", image: Foto },
+    { nama: "Mila Nur", image: Foto },
+    { nama: "Mirreal", image: Foto },
+    { nama: "Galih Alanuari", image: Foto },
+    { nama: "Moch. Hafid", image: Foto },
+    { nama: "M. Novianto", image: Foto },
+    { nama: "Alif Ramadhani", image: Foto },
   ];
 
   return (
-    <div className="row" style={{ gap: "2rem", textAlign: "center" }}>
-      <h1 style={{ marginTop: "10dvh" }}>Daftar Siswa X RPL 3:</h1>
+    <div className="row gap-6 text-center">
+      <span id="color"></span>
+      <h1 style={{ marginTop: "10dvh" }}>
+        Daftar Siswa Dan Wali Kelas X RPL 3:
+      </h1>
       {data.map((item, index) => (
         <div
           key={index}
@@ -52,15 +61,16 @@ function Siswa() {
           style={{ width: "18rem", marginTop: "10dvh" }}
         >
           <img
-            src={Foto}
+            src={item.image}
             alt=""
             className="card-img-top"
-            style={{ borderRadius: "10px", marginTop: "10px" }}
+            style={{ borderRadius: "10px", height: "40dvh" }}
           />
           <h1 style={{ fontSize: "30px", width: "100%", marginTop: "2dvh" }}>
             {item.nama}
           </h1>
-          <h3 style={{ width: "100%" }}>Absen: {item.absen}</h3>
+          <h3 style={{ width: "100%", fontSize: "20px" }}> {item.nama === "M. Ikbal.F" ? "" : `Absen: ${index}`}</h3>
+          <h4 style={{ width: "100%" }}>{item.bagian}</h4>
         </div>
       ))}
     </div>

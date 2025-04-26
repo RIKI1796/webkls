@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+.card h1 {
+  font-family: Georgia;
+}
+.card {
+  background-image: linear-gradient(to bottom right, gray, black);
+  color: white;
+}
+.card img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0.8);
+}
+#color {
+  position: absolute;
+  top: 0;
+  left: 60dvh;
+  height: 200px;
+  width: 550px;
+  background-color: #003cff;
+  border-radius: 50%;
+  filter: blur(60px);
+  z-index: 1;
+  opacity: 0.2;
+}

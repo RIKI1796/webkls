@@ -94,14 +94,20 @@ input:checked + label .description {
   transform: translateY(0) !important;
 }
 
+input:checked + label.card[for="c1"],
+input:checked + label.card[for="c2"],
+input:checked + label.card[for="c3"] {
+  background-size: cover;
+  background-position: center;
+}
 .card[for="c1"] {
-  background-image: url("https://img.freepik.com/free-vector/gradient-black-background-with-wavy-lines_23-2149151738.jpg");
+  background-image: url(/src/assets/ftbar.jpg);
 }
 .card[for="c2"] {
-  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5410e386-b62b-41fe-ae26-75f8290c43c2/dga3jli-2dfb451d-6b33-49c3-b89e-1be9aad0a365.jpg/v1/fill/w_1192,h_670,q_70,strp/abstract_4k_dark_mode_wave_wallpaper__by_ahilgalib47_dga3jli-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzUwMCIsInBhdGgiOiJcL2ZcLzU0MTBlMzg2LWI2MmItNDFmZS1hZTI2LTc1ZjgyOTBjNDNjMlwvZGdhM2psaS0yZGZiNDUxZC02YjMzLTQ5YzMtYjg5ZS0xYmU5YWFkMGEzNjUuanBnIiwid2lkdGgiOiI8PTEzMzM0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.waFru1hOmH_-eBQv_W14ssronZF3RC9-ktRszcdPGU4");
+  background-image: url(/src/assets/hariguru.jpg);
 }
 .card[for="c3"] {
-  background-image: url("https://img.freepik.com/free-vector/gradient-black-background-with-cubes_23-2149152316.jpg");
+  background-image: url(/src/assets/ki.jpg);
 }
 .card[for="c5"] {
   background-image: url("https://wallpapercave.com/wp/wp4673203.jpg");
