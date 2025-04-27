@@ -1,4 +1,5 @@
 import "./styles/Bottomsec.css";
+import "../App.css";
 
 function Bottomsec() {
   return (
@@ -7,8 +8,7 @@ function Bottomsec() {
         <div className="service-content">
           <h1>Programming Languages We Learn</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae,
-            nisi cumque. Eveniet nemo aut provident!
+            Ini adalah Beberapa Bahasa Pemrograman Yang Akan Kami Pelajari.
           </p>
         </div>
         <div className="service-cards">

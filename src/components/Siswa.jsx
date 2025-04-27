@@ -4,6 +4,8 @@ import Syafiq from "../assets/syafiq.jpg";
 import Marcel from "../assets/marcel.jpg";
 import Hafiz from "../assets/hafiz.jpg";
 import Pakikbal from "../assets/pakikbal.jpg";
+import Nafarriq from "../assets/nafarriq.png";
+import Alif from "../assets/alif.jpg";
 
 function Siswa() {
   const data = [
@@ -11,7 +13,7 @@ function Siswa() {
     { nama: "Aryo Wicaksono", image: Foto },
     { nama: "Fairuz Zaidan", image: Foto },
     { nama: "Fajar Melfiano", image: Foto },
-    { nama: "Fajjar Nafarriq", image: Foto },
+    { nama: "Fajjar Nafarriq", image: Nafarriq },
     { nama: "Ferby Indra", image: Foto },
     { nama: "Ghatfan Aufa", image: Foto },
     { nama: "Gibran Ahmad", image: Foto },
@@ -45,7 +47,7 @@ function Siswa() {
     { nama: "Galih Alanuari", image: Foto },
     { nama: "Moch. Hafid", image: Foto },
     { nama: "M. Novianto", image: Foto },
-    { nama: "Alif Ramadhani", image: Foto },
+    { nama: "Alif Ramadhani", image: Alif },
   ];
 
   return (

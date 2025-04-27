@@ -14,7 +14,7 @@ function Card() {
               <div className="row">
                 <div className="icon">1</div>
                 <div className="description">
-                  <h4>Dark Waves</h4>
+                  <h4>Foto Bersama Di Hari Guru</h4>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </p>
@@ -26,7 +26,7 @@ function Card() {
               <div className="row">
                 <div className="icon">2</div>
                 <div className="description">
-                  <h4>Abstract </h4>
+                  <h4>Perayaan Hari Guru </h4>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </p>
@@ -38,7 +38,7 @@ function Card() {
               <div className="row">
                 <div className="icon">3</div>
                 <div className="description">
-                  <h4>Black Box</h4>
+                  <h4>Kunjungan Industri</h4>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </p>
@@ -54,7 +54,7 @@ function Card() {
               <div className="row">
                 <div className="icon">4</div>
                 <div className="description">
-                  <h4>Red Sun</h4>
+                  <h4>Foto Bersama</h4>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </p>
@@ -101,25 +101,29 @@ function Card() {
         </div>
       </div>
 
-
       <section className="details">
         <h1>Details</h1>
 
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus neque corrupti corporis, sit repellat
-            quidem? Voluptatum tempore provident soluta a beatae libero ullam vitae saepe eos corporis amet
-            consequuntur, quae quia magnam rerum recusandae in debitis asperiores natus, velit cum qui dolore.
-            Accusantium nobis ut suscipit eligendi dolorum voluptatem illum.</p>
+        <p>
+          Kelas X RPL 3 di SMK Krian 1 merupakan bagian dari jurusan Rekayasa
+          Perangkat Lunak (RPL) yang fokus pada pemrograman, pengembangan
+          aplikasi, dan teknologi informasi. Di kelas ini, siswa mempelajari
+          berbagai bahasa pemrograman seperti HTML, CSS, dan Python, serta
+          keterampilan penting lainnya seperti desain UI/UX dan algoritma.
+          Mereka juga diajarkan dasar-dasar pengembangan website dan pemrograman
+          berbasis web yang membantu mereka memahami cara kerja aplikasi di
+          dunia nyata.
+        </p>
         <br />
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus neque corrupti corporis, sit repellat
-            quidem? Voluptatum tempore provident soluta a beatae libero ullam vitae saepe eos corporis amet
-            consequuntur, quae quia magnam rerum recusandae in debitis asperiores natus, velit cum qui dolore.
-            Accusantium nobis ut suscipit eligendi dolorum voluptatem illum.  Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Delectus neque corrupti corporis, sit repellat quidem? Voluptatum tempore provident soluta
-            a beatae libero ullam vitae saepe eos corporis amet consequuntur, quae quia magnam rerum recusandae in
-            debitis asperiores natus, velit cum qui dolore. Accusantium nobis ut suscipit eligendi dolorum voluptatem
-            illum.</p>
-            
-    </section>
+        <p>
+          Siswa di kelas X RPL 3 dikenal kreatif dan terampil dalam ngoding
+          serta desain. Mereka juga aktif dalam berbagai project dan selalu
+          berusaha mengembangkan keterampilan di bidang teknologi informasi.
+          Dengan semangat dan dedikasi yang besar, mereka mengusung motto:
+          "Kodingan Boleh Error, Semangat Jangan Pernah Error!", yang menjadi
+          pedoman mereka dalam menghadapi setiap tantangan di dunia pemrograman.
+        </p>
+      </section>
     </>
   );
 }

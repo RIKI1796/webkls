@@ -81,12 +81,25 @@
   text-transform: uppercase;
 }
 
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: inherit;
+  z-index: 0;
+  transition: filter 0.3s ease;
+}
+
 input {
   display: none;
 }
 
 input:checked + label {
   width: 600px;
+}
+
+input:checked + label.card::before {
+  filter: brightness(0.5);
 }
 
 input:checked + label .description {
