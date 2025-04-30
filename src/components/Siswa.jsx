@@ -1,3 +1,4 @@
+import Hyperspeed from "./Hyperspeed/Hyperspeed";
 import Foto from "../assets/china.jpg";
 import "./styles/Siswa.css";
 import Syafiq from "../assets/syafiq.jpg";
@@ -28,7 +29,7 @@ function Siswa() {
     { nama: "Izzul Khaqqi", image: Foto },
     { nama: "Jaenal Abidin", image: Foto },
     { nama: "Jessica Dwi", image: Foto },
-    { nama: "Jessika Ayu", image: Foto },
+    { nama: "Jessika Ayu", bagian: "Wakil Ketua Kelas", image: Foto },
     { nama: "Jevika Febri", image: Foto },
     { nama: "Jimmy Adi", image: Foto },
     { nama: "Khomsa Tri", image: Foto },
@@ -45,12 +46,14 @@ function Siswa() {
     { nama: "Mila Nur", image: Foto },
     { nama: "Mirreal", image: Foto },
     { nama: "Galih Alanuari", image: Foto },
-    { nama: "Moch. Hafid", image: Foto },
+    { nama: "Moch. Hafid", bagian: "Ketua Kelas", image: Foto },
     { nama: "M. Novianto", image: Foto },
     { nama: "Alif Ramadhani", image: Alif },
   ];
 
   return (
+    <>
+    <Hyperspeed />
     <div className="row gap-6 text-center">
       <span id="color"></span>
       <h1 style={{ marginTop: "10dvh" }}>
@@ -71,11 +74,15 @@ function Siswa() {
           <h1 style={{ fontSize: "30px", width: "100%", marginTop: "2dvh" }}>
             {item.nama}
           </h1>
-          <h3 style={{ width: "100%", fontSize: "20px" }}> {item.nama === "M. Ikbal.F" ? "" : `Absen: ${index}`}</h3>
+          <h3 style={{ width: "100%", fontSize: "20px" }}>
+            {" "}
+            {item.nama === "M. Ikbal.F" ? "" : `Absen: ${index}`}
+          </h3>
           <h4 style={{ width: "100%" }}>{item.bagian}</h4>
         </div>
       ))}
     </div>
+            </>
   );
 }
 
