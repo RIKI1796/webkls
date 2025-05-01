@@ -53,36 +53,29 @@ function Siswa() {
 
   return (
     <>
-    <Hyperspeed />
-    <div className="row gap-6 text-center">
-      <span id="color"></span>
-      <h1 style={{ marginTop: "10dvh" }}>
-        Daftar Siswa Dan Wali Kelas X RPL 3:
-      </h1>
-      {data.map((item, index) => (
-        <div
-          key={index}
-          className="card"
-          style={{ width: "18rem", marginTop: "10dvh" }}
-        >
-          <img
-            src={item.image}
-            alt=""
-            className="card-img-top"
-            style={{ borderRadius: "10px", height: "40dvh" }}
-          />
-          <h1 style={{ fontSize: "30px", width: "100%", marginTop: "2dvh" }}>
-            {item.nama}
-          </h1>
-          <h3 style={{ width: "100%", fontSize: "20px" }}>
-            {" "}
-            {item.nama === "M. Ikbal.F" ? "" : `Absen: ${index}`}
-          </h3>
-          <h4 style={{ width: "100%" }}>{item.bagian}</h4>
+      <Hyperspeed style={{ zIndex: "-1" }} />
+      <div className="text-center konten">
+        <span id="color"></span>
+        <h1 className="judul" style={{ marginTop: "10dvh" }}>
+          Daftar Siswa Dan Wali Kelas X RPL 3 <br /> Angkatan 2024/2025
+        </h1>
+        <div className="row gap-6 data">
+          {data.map((item, index) => (
+            <div key={index} className="card items-center mx-auto">
+              <img
+                src={item.image}
+                alt=""
+                loading="lazy"
+                className="card-img-top"
+              />
+              <h1>{item.nama}</h1>
+              <h3> {item.nama === "M. Ikbal.F" ? "" : `Absen: ${index}`}</h3>
+              <h4 style={{ width: "100%" }}>{item.bagian}</h4>
+            </div>
+          ))}
         </div>
-      ))}
-    </div>
-            </>
+      </div>
+    </>
   );
 }
 

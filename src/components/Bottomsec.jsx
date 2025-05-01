@@ -7,9 +7,7 @@ function Bottomsec() {
       <div className="service">
         <div className="service-content">
           <h1>Programming Languages We Learn</h1>
-          <p>
-            Ini adalah Beberapa Bahasa Pemrograman Yang Akan Kami Pelajari.
-          </p>
+          <p>Ini adalah Beberapa Bahasa Pemrograman Yang Akan Kami Pelajari.</p>
         </div>
         <div className="service-cards">
           <div className="service-card">
@@ -58,58 +56,6 @@ function Bottomsec() {
         <div className="circle"></div>
       </div>
 
-      <div className="kontainer">
-        <div className="kontainer-wrapper">
-          <div className="konten">
-            <div>
-              <p className="judull">Mbuh judul e</p>
-              <h3>
-                Gatau males pen <br /> beli trekk{" "}
-              </h3>
-            </div>
-            <span id="colorBackground"></span>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
-              fuga nisi cupiditate eligendi ut delectus.
-            </p>
-          </div>
-          <div className="kontainer-isi">
-            <div className="isi">
-              <a href="https://perpustakaan-sooty.vercel.app/">
-                <div className="judul-isi">
-                  <h2>Gallery</h2>
-                  <i className="ri-add-fill"></i>
-                </div>
-              </a>
-            </div>
-            <div className="isi">
-              <a href="https://perpustakaan-sooty.vercel.app/">
-                <div className="judul-isi">
-                  <h2>Quote</h2>
-                  <i className="ri-add-fill"></i>
-                </div>
-              </a>
-            </div>
-            <div className="isi">
-              <a href="https://perpustakaan-sooty.vercel.app/">
-                <div className="judul-isi">
-                  <h2>Art</h2>
-                  <i className="ri-add-fill"></i>
-                </div>
-              </a>
-            </div>
-            <div className="isi">
-              <a href="https://perpustakaan-sooty.vercel.app/">
-                <div className="judul-isi">
-                  <h2>Music</h2>
-                  <i className="ri-add-fill"></i>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <section className="web-kami">
         <h1>Our Website</h1>
       </section>
@@ -131,9 +77,10 @@ function Bottomsec() {
           <div
             className="slide"
             style={{
-              backgroundImage: "url('/image assets/wallpaperflare.com_wallpaper (8).jpg')", // Ensure the path is correct
-              backgroundSize: 'cover', // Optional: Ensures the image covers the slide area
-              backgroundPosition: 'center', // Optional: Centers the image within the slide
+              backgroundImage:
+                "url('/image assets/wallpaperflare.com_wallpaper (8).jpg')", // Ensure the path is correct
+              backgroundSize: "cover", // Optional: Ensures the image covers the slide area
+              backgroundPosition: "center", // Optional: Centers the image within the slide
             }}
           >
             <div className="content">
@@ -150,9 +97,10 @@ function Bottomsec() {
           <div
             className="slide"
             style={{
-              backgroundImage: "url('/image assets/wallpaperflare.com_wallpaper (4).jpg')", // Adjust the path if needed
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundImage:
+                "url('/image assets/wallpaperflare.com_wallpaper (4).jpg')", // Adjust the path if needed
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
           >
             <div className="content">
@@ -169,9 +117,10 @@ function Bottomsec() {
           <div
             className="slide"
             style={{
-              backgroundImage: "url('/image assets/wallpaperflare.com_wallpaper (9).jpg')", // Adjust the path if needed
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundImage:
+                "url('/image assets/wallpaperflare.com_wallpaper (9).jpg')", // Adjust the path if needed
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
           >
             <div className="content">
@@ -188,9 +137,10 @@ function Bottomsec() {
           <div
             className="slide"
             style={{
-              backgroundImage: "url('/image assets/wallpaperflare.com_wallpaper (7).jpg')", // Adjust the path if needed
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundImage:
+                "url('/image assets/wallpaperflare.com_wallpaper (7).jpg')", // Adjust the path if needed
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
           >
             <div className="content">
@@ -208,8 +158,8 @@ function Bottomsec() {
             className="slide"
             style={{
               backgroundImage: "url('/assets/perpus-hafiz.png')", // Adjust the path if needed
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
           >
             <div className="content">

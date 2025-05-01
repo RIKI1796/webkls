@@ -6,7 +6,7 @@ function Hero() {
     <>
       <section className="hero">
         <div className="container1">
-          <h1>SOFTWARE ENGINEERING CLASS X RPL 03</h1>
+          <h1>SOFTWARE ENGINEERING CLASS X RPL 03 24/25</h1>
           <p>
             Kelas X RPL 3 di SMK Krian 1 merupakan bagian dari jurusan Rekayasa
             Perangkat Lunak (RPL) yang fokus pada pemrograman, pengembangan

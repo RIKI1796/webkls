@@ -1,3 +1,4 @@
+
 import "./styles/Card.css";
 import Ft from "../assets/ftclass.jpg";
 import { useEffect } from "react";

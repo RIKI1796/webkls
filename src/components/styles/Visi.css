@@ -87,6 +87,10 @@
 }
 
 .quote-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin-top: 40px;
   text-align: center;
   text-shadow: #fff 0 0 10px;
@@ -99,6 +103,9 @@
 }
 
 .visimisi-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
   width: 80px;
   height: 80px;
   border-radius: 50%;
