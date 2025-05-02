@@ -1,6 +1,9 @@
 import Hyperspeed from "./Hyperspeed/Hyperspeed";
+import StarBorder from "../blocks/Animations/StarBorder/StarBorder";
+import PixelCard from '../blocks/Components/PixelCard/PixelCard';
 import Foto from "../assets/china.jpg";
 import "./styles/Siswa.css";
+import "../blocks/Animations/StarBorder/StarBorder.css"
 import Syafiq from "../assets/syafiq.jpg";
 import Marcel from "../assets/marcel.jpg";
 import Hafiz from "../assets/hafiz.jpg";
@@ -59,19 +62,22 @@ function Siswa() {
         <h1 className="judul" style={{ marginTop: "10dvh" }}>
           Daftar Siswa Dan Wali Kelas X RPL 3 <br /> Angkatan 2024/2025
         </h1>
-        <div className="row gap-6 data">
+
+        <div className="grid-container row data">
           {data.map((item, index) => (
-            <div key={index} className="card items-center mx-auto">
+              <PixelCard className="card" variant="pink" key={index}>
               <img
                 src={item.image}
-                alt=""
+                alt={item.nama}
                 loading="lazy"
                 className="card-img-top"
-              />
-              <h1>{item.nama}</h1>
-              <h3> {item.nama === "M. Ikbal.F" ? "" : `Absen: ${index}`}</h3>
-              <h4 style={{ width: "100%" }}>{item.bagian}</h4>
-            </div>
+                />
+              <div className="card-body text-center">
+                <h2>{item.nama}</h2>
+                {item.nama !== "M. Ikbal.F" && <h3>Absen: {index}</h3>}
+                {item.bagian && <h4>{item.bagian}</h4>}
+              </div>
+                </PixelCard>
           ))}
         </div>
       </div>
