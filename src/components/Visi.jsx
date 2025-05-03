@@ -5,7 +5,7 @@ import Ketua from "../assets/china.jpg"
 function Visi() {
   return (
     <>
-      <section className="visi-misi-section">
+      <section id="visi" className="visi-misi-section">
         <h1 className="section-title">Visi & Misi</h1>
         <div className="container-visi-misi">
           <div className="left-side">

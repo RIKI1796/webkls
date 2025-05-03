@@ -3,9 +3,19 @@
   justify-content: space-between;
   align-items: center;
   padding: 120px 50px;
-  background: url("/src/assets/ftclass1.jpg") no-repeat center center/cover;
+  background: url(/src/assets/ftclass.jpg) no-repeat center center/cover;
   height: 100vh;
   background-attachment: fixed; /* For parallax effect */
+  position: relative;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* sama dengan top: 0; right: 0; bottom: 0; left: 0 */
+  z-index: 0;
+  background: black;
+  opacity: 0.5; /* ini yang mengatur tingkat kegelapan */
+  pointer-events: none; /* biar nggak ganggu klik */
 }
 
 .hero .container1 {
@@ -18,16 +28,19 @@
   margin-bottom: 20px;
   color: #fff;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  position: relative;
 }
 
 .hero p {
   margin: 20px 0;
+  position: relative;
   font-size: 18px;
   color: #e6e6e6;
 }
 
 .hero button {
   padding: 10px 20px;
+  position: relative;
   background-color: #fff;
   color: #000;
   border: none;
@@ -35,6 +48,7 @@
   border-radius: 5px;
   font-size: 16px;
 }
+.lis
 
 /* Profile Picture */
 .hero .profile-pic {
@@ -43,8 +57,36 @@
 }
 
 .hero .profile-pic img {
+  position: relative;
   width: 300px;
   height: 300px;
   border-radius: 50%;
   border: 5px solid #fff;
+}
+
+@media screen and (max-width: 425px) {
+  .hero {
+    display: grid;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 15px;
+    width: 42dvh;
+    margin-top: 30dvh;
+  }
+  .hero p {
+    font-size: 15px;
+    width: 40dvh;
+  }
+  .hero button {
+    padding: 5px 5px;
+    font-size: 15px;
+  }
+  .hero .profile-pic {
+    transform: translateY(-450px);
+  }
+  .hero .profile-pic img {
+    width: 200px;
+    height: 200px;
+  }
 }

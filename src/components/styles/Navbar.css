@@ -8,8 +8,15 @@ header {
     width: 100%;
     top: 0;
     z-index: 100;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+.menu {
+    display: none;
 }
 
+.burgerlist {
+    display: none;
+}
 header .logo {
     font-size: 24px;
     font-weight: bold;
@@ -29,4 +36,41 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+    .menu {
+        display: unset;
+        font-size: 25px;
+        z-index: 1001;
+    }
+    header {
+        height: 5dvh;
+    }
+    nav ul {
+        display: none;
+    }
+    .burgerlist {
+        position: fixed;
+        display: unset;
+        right: 0;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.514);
+        transform: translateX(200px);
+        transition: 1s;
+    }
+    .burgerlist ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        color: white;
+        right: 0;
+        height: 100dvh;
+    }
+    .burgerlist ul li {
+        margin-top: -30dvh;
+    }
+    .burgerlist ul li a {
+        color: white;
+    }
 }

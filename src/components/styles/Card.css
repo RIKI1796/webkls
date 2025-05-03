@@ -25,7 +25,7 @@
 
 .card {
   width: 80px;
-  height: 400px ;
+  height: 400px;
   border-radius: 0.75rem;
   background-size: cover;
   cursor: pointer;
@@ -147,10 +147,12 @@ input:checked + label.card[for="c3"] {
 
 .details h1 {
   font-size: 42px;
+  background-image: linear-gradient(to bottom right, cyan, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #fff;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  text-shadow: 0 0 10px rgba(0, 204, 255, 0.562);
 }
 
 .details p {

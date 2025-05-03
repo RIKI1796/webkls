@@ -11,7 +11,7 @@ function Bottomsec() {
         </div>
         <div className="service-cards">
           <div className="service-card">
-            <h3>Frontend</h3>
+            <h3 className="front">Frontend</h3>
             <ul>
               <li>
                 <i className="fa-solid fa-plus"></i>HTML
@@ -20,35 +20,35 @@ function Bottomsec() {
                 <i className="fa-solid fa-plus"></i>CSS
               </li>
               <li>
-                <i className="fa-solid fa-plus"></i>JavaScript
+                <i className="fa-solid fa-plus"></i>PHP
               </li>
             </ul>
           </div>
           <div className="service-card">
-            <h3>Backend</h3>
+            <h3 className="back">Backend</h3>
             <ul>
               <li>
                 <i className="fa-solid fa-plus"></i>Python
               </li>
               <li>
-                <i className="fa-solid fa-plus"></i>C++
+                <i className="fa-solid fa-plus"></i>PHP
               </li>
               <li>
-                <i className="fa-solid fa-plus"></i>-
+                <i className="fa-solid fa-plus"></i>Javascript
               </li>
             </ul>
           </div>
           <div className="service-card">
-            <h3>Database</h3>
+            <h3 className="db">Database</h3>
             <ul>
               <li>
-                <i className="fa-solid fa-plus"></i>-
+                <i className="fa-solid fa-plus"></i>MySQL
               </li>
               <li>
-                <i className="fa-solid fa-plus"></i>-
+                <i className="fa-solid fa-plus"></i>MongoDB
               </li>
               <li>
-                <i className="fa-solid fa-plus"></i>-
+                <i className="fa-solid fa-plus"></i>PostgreSQL
               </li>
             </ul>
           </div>

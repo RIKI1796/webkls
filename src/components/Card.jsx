@@ -102,7 +102,7 @@ function Card() {
         </div>
       </div>
 
-      <section className="details">
+      <section id="details" className="details">
         <h1>Details</h1>
 
         <p>
