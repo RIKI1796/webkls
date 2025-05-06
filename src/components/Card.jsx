@@ -1,10 +1,8 @@
 
 import "./styles/Card.css";
 import Ft from "../assets/ftclass.jpg";
-import { useEffect } from "react";
 
 function Card() {
-  useEffect(() => {});
   return (
     <>
       <div className="wrapper">
@@ -46,7 +44,7 @@ function Card() {
                 </div>
               </div>
             </label>
-            <input type="radio" name="slide" id="c4" defaultChecked />
+            <input type="radio" name="slide" id="c4" defaultChecked/>
             <label
               htmlFor="c4"
               className="card"

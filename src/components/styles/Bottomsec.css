@@ -280,3 +280,22 @@ ul {
   z-index: 1;
   opacity: 0.1;
 }
+
+
+@media screen and (max-width: 425px) {
+  .service .service-content {
+    margin: 0;
+  }
+  .service h1 {
+    transform: scale(0.8);
+  }
+  .service .service-content p {
+    width: 30%;
+    transform: translateX(-2dvh) translateY(8dvh);
+    font-size: 12px;
+  }
+  .service-cards {
+    display: flex;
+    flex-direction: column;
+  }
+}
