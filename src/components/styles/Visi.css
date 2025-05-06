@@ -119,3 +119,36 @@
   margin-top: 10px;
   padding: 10px;
 }
+
+
+@media screen and (max-width: 425px) {
+  .visi-misi-section {
+    width: 50dvh;
+  }
+  .wali-kelas-text {
+    width: 100%;
+    font-size: 15px;
+    transform: scale(1.5);
+    margin-left: 25px;
+  }
+  .member-picture-box {
+    height: 30dvh;
+    width: 20dvh;
+  }
+  .visi-misi-text {
+    margin-left: 5dvh;
+    width: 100%;
+  }
+  .quote-box {
+    width: 50dvh;
+    height: 20dvh;
+  }
+  .visimisi-logo {
+    transform: translateY(2dvh);
+    width: 70px;
+    height: 70px;
+  }
+  .text-visimisi {
+    font-size: 15px;
+  }
+}
