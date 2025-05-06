@@ -38,7 +38,7 @@ nav ul li a:hover {
     color: #fff;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
     .menu {
         display: unset;
         font-size: 25px;

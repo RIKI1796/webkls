@@ -161,7 +161,7 @@ input:checked + label.card[for="c3"] {
   color: #c5c5c5;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .wrapper {
     /* background: linear-gradient(to right, #424242, #131313 30%); */
     background: #000;
